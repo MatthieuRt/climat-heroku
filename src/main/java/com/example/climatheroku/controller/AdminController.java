@@ -13,4 +13,9 @@ public class AdminController {
     public String index(HttpServletRequest request){
         return "index";
     }
+
+    @RequestMapping("/test")
+    public String test(HttpServletRequest request){
+        return "ok";
+    }
 }
