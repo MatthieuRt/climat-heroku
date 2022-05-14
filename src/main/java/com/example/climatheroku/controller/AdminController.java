@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 
-@Controller
+@RestController
 public class AdminController {
     @RequestMapping("/")
     public String index(HttpServletRequest request){
